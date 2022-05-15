@@ -1,0 +1,31 @@
+.carousel-item>img{
+    
+}
+#navigation{
+    display: flex;
+}
+#searchForm{
+    flex-basis: 60%;
+}
+.foodCards{
+    display: flex;
+    padding: 2rem;
+    flex-wrap: wrap-reverse;
+    text-align: center;
+    justify-content: center;
+}
+.foodCards>div{
+    margin: 2rem;
+    width: 15rem;
+    border: 0.1rem solid black;
+}
+.foodCards>div>img{
+    width: 15rem;
+    height: 10rem;
+}
+.foodCards>div>h4{
+    border-bottom: 0.1rem solid black;
+}
+.foodCards>div>h5{
+    font-style: italic;
+}
