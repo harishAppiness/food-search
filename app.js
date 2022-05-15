@@ -41,7 +41,7 @@ const renderData=(itemList) =>{
     foodBrand.innerText =`Brand : ${item.fields.brand_name}`;
     newDiv.appendChild(foodBrand);
     const foodCalorie = document.createElement('p');
-    foodCalorie.innerText =`calories : ${item.fields.nf-calories}`;
+    foodCalorie.innerText =`calories : ${item.fields.nf_calories}`;
     newDiv.appendChild(foodCalorie);
     const foodFat = document.createElement('p');
     foodFat.innerText =`Fat : ${item.fields.nf_total_fat}`;
