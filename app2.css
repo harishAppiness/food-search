@@ -9,7 +9,7 @@
     #location p{
         margin: 0.5rem;
     }
-    #search{
+    #searchForm{
         flex-direction: column;
         align-items: center;
     }
@@ -97,7 +97,7 @@ select,option{
 }
 
 /* search */
-#search{
+#searchForm{
     display: flex;
     justify-content: center;
     height: 2rem;
@@ -123,5 +123,43 @@ form>button{
 main{
     margin: 1rem;
     margin-top: 2rem;
-    border: 2px solid black;
+    
+}
+#myFooter{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#myFooter>a{
+    margin: 3rem;
+}
+
+/* from main page css for div results */
+
+.foodCards{
+    display: flex;
+    padding: 2rem;
+    flex-wrap: wrap-reverse;
+    text-align: center;
+    justify-content: center;
+}
+.foodCards>div{
+    margin: 2rem;
+    width: 15rem;
+    border: 0.1rem solid black;
+}
+.foodCards>div:hover{
+transform:scale(1.1);
+    border-radius:1rem;
+    box-shadow: 0.5rem 0.2rem 0.2rem black;
+}
+.foodCards>div>img{
+    width: 15rem;
+    height: 10rem;
+}
+.foodCards>div>h4{
+    border-bottom: 0.1rem solid black;
+}
+.foodCards>div>h5{
+    font-style: italic;
 }
