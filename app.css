@@ -34,3 +34,7 @@ transform:scale(1.1);
 .foodCards>div>h5{
     font-style: italic;
 }
+footer>p{
+    text-align:center;
+    background-color: grey;
+}
