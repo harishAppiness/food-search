@@ -1,3 +1,12 @@
+@media (max-width: 350px){
+    #navigation{
+        flex-direction: column;
+    }
+    #searchForm{
+        display: flex;
+        flex-direction: column;
+    }
+}
 .carousel-item>img{
     
 }
