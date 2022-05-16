@@ -1,0 +1,127 @@
+@media (max-width: 350px){
+    #header{
+        flex-direction: column;
+        align-items: center;
+    }
+    header{
+        height: auto;
+    }
+    #location p{
+        margin: 0.5rem;
+    }
+    #search{
+        flex-direction: column;
+        align-items: center;
+    }
+    form>button{
+        position: static;
+        left: 0rem;
+        margin: 0.3rem;
+        width: 5rem;
+    }
+    html{
+        font-size: 14px;
+    }
+    #title h1{
+        
+        margin: 0px;
+    }
+}
+@media (min-width: 600px){
+    html{
+        font-size: 18px;
+    }
+}
+@media (min-width: 800px){
+    html{
+        font-size: 22px;
+    }
+}
+@media (min-width: 1000px){
+    html{
+        font-size: 24px;
+    }
+}
+/* body */
+body{
+    margin: 0;
+    border: 2px solid black;
+    font-family: 'Macondo', cursive;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* banner */
+header{
+    background-image: url(img/fruit.jpg);
+    background-size: cover;
+    height: 13rem;
+    
+}
+
+#header{
+    display: flex;
+    justify-content: space-between; 
+    margin-bottom: 0.5rem;
+}
+
+#location{
+    margin: 0rem 0.5rem;
+    text-align: left;
+    flex-basis: 15%;
+}
+#location p{
+    
+    text-shadow: 0 0 0.2rem rgb(255, 255, 255);
+}
+#title{
+   
+    text-align: center;
+    flex-basis: 70%;
+}
+#title h1{
+    font-size: 2.2rem;
+    text-shadow: 0 0 0.2rem #FC0;
+}
+#sortby{
+    text-align: right;
+    margin: 0rem 0.5rem;
+    
+    flex-basis: 15%;
+    
+}
+select,option{
+    background-color: rgba(255, 255, 255,30%);
+    border: 0.1rem solid black;
+    border-radius: 1rem;
+    
+}
+
+/* search */
+#search{
+    display: flex;
+    justify-content: center;
+    height: 2rem;
+    padding: 1.5rem;  
+    
+}
+input[type="text"]{
+    flex-basis: 50%;
+    border: 0.1rem solid black;
+    border-radius: 1rem;
+    border-right: none;
+    background-color: rgba(255, 255, 255,50%);
+}
+form>button{
+    flex-basis: 20%;
+    border-radius: 1rem;
+    position: relative;
+    right: 2rem;
+    background-color: rgba(2, 2, 2, 0.95);
+    color: white;
+    border: 0.1rem solid black;
+}
+main{
+    margin: 1rem;
+    margin-top: 2rem;
+    border: 2px solid black;
+}
