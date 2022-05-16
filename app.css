@@ -20,7 +20,9 @@
     border: 0.1rem solid black;
 }
 .foodCards>div:hover{
-transform:scale(2);
+transform:scale(1.1);
+    border-radius:1rem;
+    box-shadow: 0.5rem 0.2rem 0.2rem black;
 }
 .foodCards>div>img{
     width: 15rem;
